@@ -9,7 +9,6 @@
     padding-bottom: 20px;
   }
   
-  h1,
   h2,
   h3 {
     text-align: center;
@@ -17,7 +16,7 @@
   }
   
   h1 {
-    font-size: 96px !important;
+    font-size: 96px;
   }
   
   h2 {
@@ -80,5 +79,14 @@
   
   .email-link:hover {
     text-decoration: underline;
+  }
+
+  @media(max-width: 768px){
+    h1{
+      font-size: 76;
+    }
+    p{
+      text-align: center;
+    }
   }
   
